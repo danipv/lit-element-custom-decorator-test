@@ -16,4 +16,4 @@ The value of the property decorated can't be changed within the decorator. The f
 
 If the property is changed through the 'Click Count' button everthing goes right and the value is updated.
 
-When the value is changed from the decorator the value of `this` inside the `_requestUpdate` is a `HTMLElement` object, but when the value is changed from the button the value is `<my-element></my-element>,
+When the value is changed from the decorator the value of `this` inside the `_requestUpdate` is a `HTMLElement` object, but when the value is changed from the button the value is `<my-element></my-element>`.
