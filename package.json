@@ -1,0 +1,18 @@
+{
+  "name": "lit-element-decorators-test",
+  "version": "0.0.0",
+  "main": "my-element.js",
+  "module": "my-element.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "serve": "es-dev-server --node-resolve --watch"
+  },
+  "dependencies": {
+    "lit-element": "^2.3.1"
+  },
+  "devDependencies": {
+    "es-dev-server": "^1.46.1",
+    "typescript": "^3.8.3"
+  }
+}
